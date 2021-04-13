@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+
+
+.entete {
+    display: flex;
+    overflow: hidden;
+}
+
+.entete ul {
+    display: flex;
+    list-style-type: none;
+}
+.nom{
+    float: right;
+    display: block;
+}
+.entete a {
+    float: left;
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: cadetblue;
+}
+.entete a:hover {
+    background-color:rgb(137, 228, 228);
+    color: black;
+}
+i{
+    color:black;
+   height: 80%;
+   width:20px;
+  }
+
+.tronc{
+    background-color:rgb(140, 245, 245);
+    color:black;
+    width: 50%;
+    height: 80%;
+   margin:0 auto ;
+   padding: 0 auto;
+   /*text-align: center;*/
+   font-family: 'Pacifico', cursive;
+   
+   justify-content: justify;
+}
+.text-1{
+    background-color:white;
+    color:black;
+    width: 50%;
+    height: 80%;
+    
+    font-family: 'Pacifico', cursive;
+}
+#tit{
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+}
+.widget-title{
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+}
+
+
+.calendrier{
+    float: right;
+    left: 100%;
+    font-family: Helvetica, arial, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+    display: block;
+}
+.calendrier h3{
+    text-align: center;
+}
+.calendrier td, .calendrier th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.calendrier tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.calendrier th{
+    background-color:rgb(132, 141, 226);
+}
+.calendrier table {
+    display: flex;
+    justify-content:center;
+    position:absolute;
+}
+#centre{
+    
+    text-align: center;
+}
+.tofs{
+    display: block;
+    /*text-align: center;*/
+    margin: 40px;
+    
+}
+.tofs h4{
+    
+    margin: 20px;
+}
+.tofs-1{
+    float:left;
+    text-align: center;
+}
+.tofs-2{
+    float:right;
+    text-align: center;
+}
+.jeux{
+    display: block;
+    /*text-align: center;*/
+    margin: 40px;
+}
+
+.jeux h4{
+    
+    margin: 20px;
+}
+.jeux-1{
+    float:right;
+    text-align: center;
+}
+.jeux-2{
+    float:left;
+    text-align: center;
+    
+}
+body {
+    background-color:rgb(236, 228, 212);
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(240, 176, 176);
+  }
+    /* Style the topnav links */
+    
+.topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+      
+      /* Change color on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+.city{
+    background-color: rgb(233, 182, 163);
+    width: 50%;
+    
+   margin:0 auto ;
+   text-align: justify;
+   font-family: 'Pacifico', cursive;
+}
+.city h2{
+    text-align: center;
+}
+#album {
+    text-align: center;
+    
+}
+.galerie{
+justify-content: space-between;
+float:left;
+text-align: center;
+
+}
+
+.galerie h4{
+    margin: 20px;
+}
+#mot{
+    font-family: 'Brush Script MT', cursive;
+    margin: 20%;
+    font-size:400%;
+}
